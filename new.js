@@ -1,11 +1,3 @@
-const product ={
-     name :"Ball_Pan",
-     original_price : 285,
-     offer_price : 270,
-
-};
-console.log(product);
-console.log(product.name);
-console.log(product["original_price"]);
-product.name ="Pen";
-console.log(product.name);
+let input = prompt("Enter a number:")
+//using ternary operator
+input%5===0 ? "it is multiple by 5":"it is not multiple by 5";
