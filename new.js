@@ -10,3 +10,6 @@ for(let i=0;i<marks.length;i++){
 }
 let average_marks = total_marks/marks.length;
 console.log(average_marks);
+//FOr a given array of numbers, print the square of each value usng the forEach loop.
+let array = [1,2,3,4];
+array.forEach((val)=>{console.log(val*val)});
