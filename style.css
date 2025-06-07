@@ -1,4 +1,9 @@
-.para{
-    background-color:burlywood;
-    color:red;
+.darkest{
+    background-color:black;
+    color:white;
+    
+}
+.lightest{
+    background-color:white;
+    color:black;
 }
